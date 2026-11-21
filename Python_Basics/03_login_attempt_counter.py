@@ -11,7 +11,7 @@ john_count = 0
 alice_count = 0
 test_count = 0
 
-print ("-------- Login Attempts List ------------")
+print ("\n-------- Login Attempts List ------------\n")
 
 # Using a for loop to iterate through each username in the list
 for name in user_names:
@@ -28,10 +28,9 @@ for name in user_names:
         test_count += 1
 
 # Displaying the count summary of login attempts
-print ("----------- Login Attempt Count Summary ---------")
-
+print ("\n----------- Login Attempt Count Summary ---------\n")
+print("Total login attempts:", len(user_names))
 print ("Admin login attempt count:", admin_count)
 print ("John login attempt count:", john_count)
 print ("Alice login attempt count:", alice_count)
 print ("Test user login attempt count:", test_count)
-print("Total login attempts:", len(user_names))
