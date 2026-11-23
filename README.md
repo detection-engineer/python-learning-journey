@@ -14,6 +14,13 @@ My goal is to develop a strong foundation in Python and eventually apply it to c
 - Learn file handling, functions, loops, and data structures.
 - Explore Python automation for cybersecurity use cases.
 
+## Current Learning Progress
+- Variables and data types
+- Lists and basic data manipulation
+- Conditional statements
+- For loops and iteration
+- Counting and analysing login attempts
+
 ## Tools Used
 
 - Python
