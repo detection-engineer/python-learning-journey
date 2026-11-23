@@ -41,6 +41,7 @@ print ("\n-----------FAILED LOGIN SUMMARY----------\n")
 failed_count = 0
 
 # Using a for loop to iterate through all login records
+
 for ipadd in total_attempts:
     ip_address = ipadd.split(" - ") 
     ip = ip_address[0].strip() 
